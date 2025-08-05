@@ -10,7 +10,7 @@ class studentGradeCalculator {
     void input() {
         System.out.println("\nStudent's Grade Calculator\n");
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the name of subjects: ");
+        System.out.print("Enter the name of student: ");
         Name = sc.nextLine();
         System.out.print("Enter the number of subjects: ");
         n = sc.nextInt();
